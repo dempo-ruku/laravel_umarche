@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+})->middleware(['auth:users'])->name('dashboard');
 
 Route::middleware('guest')->group(function () {
     Route::get('component-test1', [ComponentTestController::class, 'showComponent1']);
