@@ -17,7 +17,6 @@ class OwnerSeeder extends Seeder
     public function run()
     {
         DB::table('owners')->insert([
-        //     [
                 'name' => 'test1',
                 'email' => 'test1@test.com',
                 'password' => Hash::make('password'),
