@@ -11,7 +11,7 @@ window.axios = require('axios');
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 
-import MicroModal from 'micromodel';
+import MicroModal from 'micromodal';
 
 MicroModal.init({
     disableScroll :true,
