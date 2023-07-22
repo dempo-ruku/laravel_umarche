@@ -19,7 +19,7 @@ class ShopSeeder extends Seeder
             'owner_id' => 1,
             'name' => '店名',
             'information' => 'ここにお店の情報が入ります。ここにお店の情報が入ります。ここにお店の情報が入ります。',
-            'filename' => '',
+            'filename' => 'sample1.jpg',
             'is_selling' => true,
         ]);
         Shop::factory()->count(20)->create();

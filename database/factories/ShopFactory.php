@@ -19,7 +19,7 @@ class ShopFactory extends Factory
             'owner_id' => $this->faker->unique()->randomElement($owner_id),
             'name' => $this->faker->streetName,
             'information' => $this->faker->text,
-            'filename' => '',
+            'filename' => $this->faker->randomElement(['sample1.jpg', 'sample2.jpg', 'sample3.jpg', 'sample4.jpg', 'sample5.jpg', 'sample6.jpg']),
             'is_selling' => true,
         ];
     }
