@@ -925,6 +925,10 @@ select {
     margin-bottom: 3rem;
 }
 
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
 .mb-4 {
     margin-bottom: 1rem;
 }
@@ -991,10 +995,6 @@ select {
 
 .mt-8 {
     margin-top: 2rem;
-}
-
-.mb-2 {
-    margin-bottom: 0.5rem;
 }
 
 .block {
@@ -2232,12 +2232,12 @@ select {
         width: 50%;
     }
 
-    .md\:w-2\/3 {
-        width: 66.666667%;
-    }
-
     .md\:w-2\/12 {
         width: 16.666667%;
+    }
+
+    .md\:w-2\/3 {
+        width: 66.666667%;
     }
 
     .md\:w-3\/12 {
